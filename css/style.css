@@ -970,12 +970,17 @@ section ul li.active{
 	justify-content: center;
     text-align: center;
 	opacity: 0;
-	transition: opacity 0.25s;
+	transition: .5s ease;
     
   }
   
   .team:hover .caption {
-    opacity:1;
+    opacity:2;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
   }
   .social-icon i{
     font-size: 22px;
