@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web stranica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/bc8dec27a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header" id="home">
+        <div class="logo">
+            <img class="logos" src="./slike/logo b-creative-01.svg" alt="Logo">
+        </div>
+
+        <div class="topnav" id="myTopnav">
+            <a href="#home">POČETNA</a>
+            <a href="#about">O NAMA</a>
+            <a href="#portfolio">PORFOLIO</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contact">KONTAKT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="search">
+            <img class="searchs" src="./slike/png/001-magnifier.png" alt="Pretraga">
+            <img class="searchs-ora" src="./slike/png/002-magnifierhover.png" alt="Pretraga">
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <img class="image" src="2. BANNER/banner-1280x600px.jpg" alt="Baner">
+        <div class="image__overlay">
+
+            <div class="image__title">DIZAJNIRAMO NAJBOLJE</div>
+            <p class="image__description">
+                WEB STRANICE
+            </p>
+            <div class="button" onclick="location.href='#contact'"><button>Kontaktirajte nas!</button></div>
+
+        </div>
+    </div>
+
+    <div class="o-nama" id="about">
+        <h1 class="naslov">MI SMO AGENCIJA KOJA DONOSI REZULTATE</h1>
+        <div class="linija"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto similique enim libero reprehenderit
+            accusamus laborum cum iure, voluptate optio recusandae ea blanditiis perspiciatis
+            quis voluptatem?</p>
+
+        <div class="prozori">
+
+            <div class="ponude">
+                <div class="developer">
+                    <div class="ikoneP">
+                        <img src="3. O NAMA - ikonice/png/001-developer.png " class="dev" alt="developer">
+                        <img src="3. O NAMA - ikonice/png/006-developer-white.png" class="dev-white" alt="dev-white">
+                    </div>
+                    <h3>DEVELOPMENT</h3>
+                    <div class="linija-ponude"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor</p>
+
+
+            </div>
+            <div class="ponude">
+                <div class="branding">
+                    <div class="ikoneP">
+                        <img src="3. O NAMA - ikonice/png/002-branding.png" class="brand" alt="branding">
+                        <img src="3. O NAMA - ikonice/png/005-branding-white.png" class="brand-white" alt="brand-white">
+                    </div>
+                    <h3>BRANDING</h3>
+                    <div class="linija-ponude"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor</p>
+
+            </div>
+
+
+
+            <div class="ponude">
+                <div class="dig-marketing">
+                    <div class="ikoneP">
+                        <img src="3. O NAMA - ikonice/png/003-digital-marketing.png" class="dm" alt="digital-marketing">
+                        <img src="3. O NAMA - ikonice/png/004-digital-marketing-white.png" class="dm-white"
+                            alt="dm-white">
+                    </div>
+                    <h3>MARKETING</h3>
+                    <div class="linija-ponude"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor</p>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="portfolio" id="portfolio">
+        <h1>PORTFOLIO</h1>
+        <div class="linija"></div>
+        <section>
+            <ul>
+                <li class="list active" data-filter="all">SVI RADOVI</li>
+                <li class="list" data-filter="logo">LOGO DIZAJN</li>
+                <li class="list" data-filter="web">WEB DIZAJN</li>
+                <li class="list" data-filter="dev">DEVELOPMENT</li>
+            </ul>
+            <div class="product">
+                <div class="gallery">
+
+                    <div id="gallery__item--1" class="itemBox" data-item="logo">
+                        <img src="4. PORTFOLIO - slike/tsif-logo-dizajn-680x480px.jpg" width="100%">
+                        <div class="overlayP">
+                            <h1>TSIF</h1>
+                            <H2>LOGO DIZAJN</H2>
+
+                        </div>
+                    </div>
+
+                    <div id="gallery__item--2" class="itemBox" data-item="logo">
+                        <img src="4. PORTFOLIO - slike/rolex-logo-dizajn-340x480px.jpg" width="100%">
+                        <div class="overlayP">
+                            <h1>ROLEX</h1>
+                            <H2>LOGO DIZAJN</H2>
+                        </div>
+
+                    </div>
+
+                    <div id="gallery__item--3" class="itemBox" data-item="web">
+                        <img src="4. PORTFOLIO - slike/shwamhouse-web-dizajn340x4960px.jpg" width="100%">
+                        <div class="overlayP">
+                            <h1>SHWAMHOUSE</h1>
+                            <H2>WEB DIZAJN</H2>
+                        </div>
+                    </div>
+
+                    <div id="gallery__item--4" class="itemBox" data-item="dev">
+                        <img src="4. PORTFOLIO - slike/app-development-680x480px.jpg" width="100%">
+                        <div class="overlayP">
+                            <h1>APP</h1>
+                            <H2>DEVELOPMENT</H2>
+                        </div>
+                    </div>
+                    <div id="gallery__item--5" class="itemBox" data-item="web">
+                        <img src="4. PORTFOLIO - slike/how2fit-web-design-680x480px.jpg" width="100%">
+                        <div class="overlayP">
+                            <h1>HOW2 FIT</h1>
+                            <H2>WEB DIZAJN</H2>
+                        </div>
+                    </div>
+                    <div id="gallery__item--6" class="itemBox" data-item="logo">
+                        <img src="4. PORTFOLIO - slike/toyota-logo-dizajn-340x480px.jpg" width="100%">
+                        <div class="overlayP">
+                            <h1>TOYOTA</h1>
+                            <H2>LOGO DIZAJN</H2>
+                        </div>
+                    </div>
+                    <div id="gallery__item--7" class="itemBox" data-item="web">
+                        <img src="4. PORTFOLIO - slike/plum-web-dizajn340x480px.jpg" width="100%">
+                        <div class="overlayP">
+                            <h1>PLUM</h1>
+                            <H2>WEB DIZAJN</H2>
+                        </div>
+                    </div>
+                    <div id="gallery__item--8" class="itemBox" data-item="dev">
+                        <img src="4. PORTFOLIO - slike/bcreative-web-dizajn-web-development-340x480.jpg" width="100%">
+                        <div class="overlayP">
+                            <h1>BCREATIVE</h1>
+                            <H2>WEB DIZAJN</H2>
+                        </div>
+                    </div>
+                </DIv>
+            </div>
+        </section>
+        <div class="counters" onmouseover="startCounter()" ;>
+            <div class="container">
+                <div>
+                    <i class="projects"></i>
+                    <div class="counter" data-target="256">0</div>
+                    <h3>PROJEKATA</h3>
+                </div>
+                <div>
+                    <i class="CLIENTS"></i>
+                    <div class="counter" data-target="355">0</div>
+                    <h3>KLIJENATA</h3>
+                </div>
+                <div>
+                    <i class="COFE"></i>
+                    <div class="counter" data-target="825">0</div>
+                    <h3>KAFA</h3>
+                </div>
+                <div>
+                    <i class="recognition"></i>
+                    <div class="counter" data-target="75">0</div>
+                    <h3>PRIZNANJA</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog" id="blog">
+        <h1>BLOG</h1>
+        <div class="linija"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto similique enim libero reprehenderit
+            accusamus laborum cum iure, voluptate optio recusandae ea blanditiis perspiciatis
+            quis voluptatem?</p>
+
+        <div class="windows">
+            <div class="offers">
+                <div class="datum"><span> 17. <br><br> OKT</span></div>
+                <img src="5. BLOG - slike/kvalitet-ne-izlazi-iz-mode-1000x800px.jpg" alt="kvalitet">
+                <h3>KVALITET NE IZLAZI IZ MODE</h3>
+                <h4>LOGO DIZAJN</h4>
+                <a href="#">Saznaj više<i class="gg-arrow-right-r"></i></i></a>
+            </div>
+
+            <div class="offers">
+                <div class="datum"><span>5. <br><br> OKT</span></div>
+                <img src="5. BLOG - slike/optimizacija-sajta-1000x800px.jpg" alt="optimizacija">
+                <h3>OPTIMIZACIJA SAJTA</h3>
+                <h4>WEB DIZAJN</h4>
+                <a href="#">Saznaj više<i class="gg-arrow-right-r"></i></i></a>
+            </div>
+
+            <div class="offers">
+                <div class="datum"><span>23. <br><br> SEP</span></div>
+                <img src="5. BLOG - slike/psihologija-boja-1000x800px.jpg" alt="psihologija">
+                <h3>PSIHOLOGIJA BOJA</h3>
+                <h4>LOGO DIZAJN</h4>
+                <a href="#">Saznaj više<i class="gg-arrow-right-r"></i></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="upoznajte">
+        <h1>UPOZNAJTE NAŠ TIM</h1>
+        <div class="linija"></div>
+
+        <div class="teams">
+            <div class="team">
+                <img src="6. UPOZNAJTE NAS TIM - slike/Ime-Prezime-1-350x420px.jpg" />
+                <div class="caption">
+                    <div class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h1>IME PREZIME 1</h1>
+                        <H2>WEB DIZAJNER</H2>
+                        <div class="linijaT"></div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team">
+                <img src="6. UPOZNAJTE NAS TIM - slike/Ime-Prezime-2-350x420px.jpg" />
+                <div class="caption">
+                    <div class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h1>IME PREZIME 2</h1>
+                        <H2>CEO</H2>
+                        <div class="linijaT"></div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team">
+                <img src="6. UPOZNAJTE NAS TIM - slike/Ime-Prezime-3-350x420px.jpg" />
+                <div class="caption">
+                    <div class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h1>IME PREZIME 3</h1>
+                        <H2>DEVELOPER</H2>
+                        <div class="linijaT"></div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="kontakt" id="contact">
+        <h1>KONTAKTIRAJTE NAS</h1>
+        <div class="linija"></div>
+        <div class="form-icon">
+            <div class="forma">
+                <input type="text" id="name" name="name" placeholder="VAŠE IME" required><br><br>
+                <input type="email" id="E-MAIL" name="E-MAIL" placeholder="VAŠ MAIL"><br><br>
+                <textarea id="subject" name="subject" placeholder="PORUKA :" style="height:200px"></textarea><br><br>
+                <div class="posalji">
+                    <input type="submit" value="POŠALJI!">
+                </div>
+            </div>
+
+            <div class="ikone">
+                <div class="adresa">
+                    <div class="slika">
+                        <img class="ikon" src="7. KONTAKTIRAJTE NAS - ikonice/996424-contact-us/png/012-placeholder.png"
+                            alt="adresa">
+                    </div>
+                    <div class="text-address">
+                        <p> ADRESA </p> <br>
+                        <p>Joesph T.Villanvera 129 North Street <br> Grand Rapids,MI 49546</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <div class="slika">
+                        <img class="ikon" src="7. KONTAKTIRAJTE NAS - ikonice/996424-contact-us/png/004-email.png"
+                            alt="email">
+                    </div>
+                    <div class="text-email">
+                        <p> EMAIL </p><br>
+                        <p>incognito@gmail.com <br> office@bcreative.com</p>
+                    </div>
+                </div>
+                <div class="telefon">
+                    <div class="slika">
+                        <img class="ikon" src="7. KONTAKTIRAJTE NAS - ikonice/996424-contact-us/png/001-telephone.png"
+                            alt="telefon">
+                    </div>
+                    <div class="text-phone">
+                        <p> TELEFON </p><br>
+                        <p>+ 387 61 111 222 <br> + 387 32 222 333</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="posalji">
+            <input type="submit" value="POŠALJI!">
+        </div> -->
+    </div>
+
+    <div class="footer">
+        <div class="col-1">
+            <h3>BE CREATIV</h3> <span>DIGITAL AGENCY</span>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, laudantium, illum pariatur ducimus
+                doloribus rem iusto ut exercitationem facilis consequuntur natus eligendi nisi minima temporibus
+                officia. Placeat dolor at corrupti tempore incidunt.
+            </P>
+            <img src="logo-b-creative-01-beli-logo.png" alt="logo" width="100px" height="30px">
+
+        </div>
+        <div class="col-2">
+            <a href="#home">POČETNA</a>
+            <a href="#about">O NAMA</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contact">KONTAKT</a>
+
+
+        </div>
+        <DIV class="col-3">
+            <h3>PRETPLATI SE NA NAŠ </h3><span>NEWSLETTER</span>
+            <form>
+                <input type="email" placeholder="UNESITE VAŠU MAIL ADRESU" required>
+                <input type="submit" value="PRETPLATI SE">
+            </form>
+
+        </div>
+    </div>
+    <div class="autorsko-pravo">
+        <p>Copyright LANACO | All Rights Reserved</p>
+        <div class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
